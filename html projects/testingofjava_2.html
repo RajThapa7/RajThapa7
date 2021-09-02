@@ -1,0 +1,21 @@
+<html>
+    <body>
+       
+        <p id="demo"> This is the outcome</p>
+
+          <script>
+             var person={
+                 firstName:"Raj",
+                 lastName:"Thapa",
+                 age:18,
+                 //methodName    method
+                 fullName:function(){
+                     return this.firstName+" "+this.lastName+" "+person.age;//This is method
+                 }
+             };
+             document.getElementById("demo").innerHTML=person.fullName();
+    
+                   
+        </script>
+    </body>
+</html>

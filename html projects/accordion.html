@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Accordion</title>
+        <style>
+            details >summary{
+                background-color: gray;
+                box-shadow:2px 2px 2px rgba(0, 0, 0, 0.315);
+                cursor:pointer;
+            }
+             details >p{
+                background-color: burlywood;
+                margin:0;
+                padding:4px;
+                box-shadow:2px 2px 2px burlywood;
+            }
+            details >summary:hover{
+                background-color:darkcyan;
+            }
+            .accordion:active{
+                background-color: darkcyan;
+            }
+        </style>
+    </head>
+    <body>
+        <details>
+            <summary class="accordion">Section 1</summary>
+            <p>This section will take you to the information about our page. You can learn all about our webpage on our section.</p>
+        </details>
+        <details>
+            <summary class="accordion">Section 2</summary>
+            <p>This section will take you to our shop where you can buy our merchandise and support our cause.</p>
+        </details>
+    </body>
+</html>

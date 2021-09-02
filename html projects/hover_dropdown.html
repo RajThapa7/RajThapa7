@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            HoverDropDown
+        </title>
+        <style>
+.Hover_button{
+    background-color:orange;
+    font-size:1.5em;
+    color:white;
+    box-shadow: none;
+    border:none;
+    padding:10px;
+}
+.drop_menu{
+display:none;
+}
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+.drop_menu a{
+    text-decoration: none;
+    font-size:1.5em;
+    display: block;
+    background-color: gray;
+    position:relative;
+    padding:10px;
+    color:white;
+}
+.dropdown:hover .Hover_button{
+    background-color: coral;
+}
+.dropdown:hover .drop_menu{
+display: block;
+}
+.drop_menu a:hover{
+    background-color: rgba(128, 128, 128, 0.815);
+}
+        </style>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button type="button" class="Hover_button">Hover Me</button>
+            <div class="drop_menu">
+                <a href="#">Link 1 </a>
+                <a href="#">Link 2 </a>
+                <a href="#">Link 3 </a>
+
+
+            </div>
+        </div>
+    </body>
+</html>

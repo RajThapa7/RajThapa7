@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+            #output{
+                border:1px solid rgb(0, 0, 0);
+                background-color: rgba(243, 84, 11, 0.966);
+                font-size:1.1em;
+                width:150px;
+                text-align:center;
+                border-radius:5px;
+                padding:5px;
+                margin:20px;
+                color:white;
+                }
+            
+            #add{
+                background-color:rgba(0, 128, 0, 0.904);
+                border:none;
+                
+                padding:5px 18px;
+                font-size:1.01em;
+                text-align:center;
+            }
+            #subtract{
+                background-color: rgba(255, 0, 0, 0.829);
+                border:none;
+                padding:5px;
+                font-size:1.01em;
+            }
+            #multiply{
+                background-color:rgb(0, 225, 255);
+                border:none;
+                padding:5px;
+                font-size:1.01em;
+                }
+                #divide{
+                background-color:rgb(228, 243, 11);
+                border:none;
+                padding:5px 13px;
+                font-size:1.01em;
+                }
+                #first{
+                    border-radius:5px;
+                    padding:3px;
+                }
+                #second{
+                    border-radius:5px;
+                    padding:3px;
+                }
+                #t1{
+                    font-size:1.1em;
+                    color:rgb(11, 11, 156);
+                }
+                #t2{
+                    font-size:1.1em;
+                    color: rgb(124, 48, 4);
+                }
+                button:hover{
+                    transform:scale(1.05);
+                }
+                #content{
+                    position:absolute;
+                    background-color:gray;
+                    width:200px;
+                    text-align:center;
+                    left:40%;
+                    border-radius:5px;
+                }
+
+        </style>
+    </head>
+    <body>
+        <div id="content">
+        <p id="t1">First Number</p>
+        <input type="text" id="first">
+        <p id="t2">Second Number</p>
+        <input type="text" id="second">
+        <br><br>
+        <button type="button" id="add" onclick="Add()">Add</button>
+        <button type="button" id="subtract" onclick="Sub()">Subtract</button>
+<br><br>
+        <button type="button" id="multiply" onclick="Multi()">Multiply</button>
+        <button type="button" id="divide" onclick="Divide()">Divide</button>
+<br><br>
+       <div id="out"><p id="output"></p></div>
+        <script src="multi.js"></script>
+        </div>
+    </body>
+</html>

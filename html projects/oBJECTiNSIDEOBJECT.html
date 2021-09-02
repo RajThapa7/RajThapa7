@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <p id="demo">Object inside object</p>
+        <button type="button" onclick=alert(myFunc())>
+        CLICK me</button>
+
+        <script>
+            var bike={
+                honda:{
+                    model:"XR",
+                    cost:"6l",
+                    engine:"190cc"
+                },
+                hero:{
+                    model:"xpulse",
+                    cost:"4l",
+                    engine:"200cc"
+                }
+            };
+                function myFunc(){
+                    return document.getElementById('demo').innerHTML='Your'+' '+'bike'+' '+' '+'is'+' '
+        +'hero'+' '+bike.hero.model+' '+bike.hero.engine;
+                }
+           
+        </script>
+    </body>
+</html>

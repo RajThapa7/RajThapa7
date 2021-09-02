@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Search Bar</title>
+        <link rel="stylesheet" type="text/css" href="file:///C:/Users/ppp/Downloads/fontawesome-free-5.15.1-web%20(1)/fontawesome-free-5.15.1-web/css/all.css">
+<style>
+    .icon-bar{
+        width:100%;
+    }
+.icon-bar>a{
+    width:16%;
+    float:left;
+    color:white;
+    background-color: gray;
+    font-size: 17px;
+    text-decoration: none;
+    padding:12px 0px;
+    text-align:center;
+    display:block;
+}
+input[type="text"]{
+    background-color: black;
+    border:1px solid black;
+    font-size:17px;
+}
+button[type="submit"]{
+    
+    font-size: 18px;
+    
+}
+button[type="submit"]:hover{
+    background-color: black;
+    color:white;
+}
+form{
+    margin:0px;
+}
+.icon-bar>.searchbar{
+    background-color: gray;
+    padding: 9.5px 10px;
+    float;right;
+    margin-right:10px;
+    text-align: right;
+    letter-spacing: 0;
+}
+.icon-bar>.active{
+    background-color: blue;
+    padding:12px 0px;
+}
+.icon-bar>a:hover{
+    background-color:black;
+}
+</style>
+    </head>
+    <body>
+        <div class="icon-bar">
+            <a href="#" class="active"><i class="fas fa-home"></i>Home</a>
+            <a href="#"><i class="fas fa-search"></i>Search</a>
+            <a href="#"><i class="fas fa-envelope"></i>Mail</a>
+            <a href="#"><i class="fas fa-cogs"></i>Settings</a>
+            <div class="searchbar"><form><input type="text" name="search" placeholder="search...">
+            <button type="submit"><i class="fa fa-search"></i></button></form>
+            </div>
+            </div>
+    </body>
+</html>

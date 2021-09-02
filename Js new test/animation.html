@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #container {
+        position: relative;
+        background-color: teal;
+        width: 400px;
+        height: 400px;
+      }
+
+      #animation {
+        position: absolute;
+        background-color: red;
+        width: 50px;
+        height: 50px;
+      }
+      #item {
+        background: green;
+        position: absolute;
+        height: 75px;
+        width: 200px;
+        margin: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="move()">click me</button>
+    <button onclick="move2()">click me</button>
+
+    <div id="container">
+      <div id="animation"></div>
+      <div id="item"></div>
+    </div>
+
+    <script>
+      function move() {
+        let elem = document.getElementById("animation");
+        let pos = 0;
+        let id = setInterval(move, 5);
+        function move() {
+          if (pos == 350) clearInterval(id);
+          else {
+            pos++;
+            elem.style.left = pos + "px";
+            elem.style.top = `${pos}px`;
+          }
+        }
+      }
+      var item = document.getElementById("item");
+      function move2() {
+        item.animate(
+          [
+            {
+              transform: " scale(1)",
+              background: "pink",
+              opacity: 1,
+              offset: 0,
+            },
+            {
+              transform: " scale(0.5) rotate(270deg)",
+              background: "blue",
+              opacity: 0.5,
+              offset: 0.5,
+            },
+            {
+              transform: " scale(1) rotate(0deg)",
+              background: "pink",
+              opacity: 1,
+              offset: 1,
+            },
+          ],
+          {
+            duration: 2000,
+            easing: "ease-in-out",
+            iterations: Infinity,
+            direction: "normal",
+            fill: "forwards",
+          }
+        );
+      }
+    </script>
+  </body>
+</html>

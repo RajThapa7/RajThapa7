@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- Nodes are in the DOM aka Document Object model. In the DOM, all parts of the document, such as elements,
+         attributes, text, etc. are organized in a hierarchical tree-like structure; consisting of parents and children.
+          These individual parts of the document are known as nodes. -->
+        <div class="parent">
+            <div class="child"></div>
+            <!-- --> 
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+    </body>
+    <script>
+        //Most common nodes are text node, comment node,element nodes etc.
+        //We also have atribute nodes
+        let parent = document.querySelector(".parent");
+        console.log(parent.childNodes);// returns a nodelist
+        console.log(parent.children);// returns a HTML collction
+    </script>
+
+    <!--Every HTML element is a node but all node is not an HTML element-->
+</html>      

@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <button onclick="openWindow()">Open window</button>
+    <button onclick="moveWindow()">move window</button>
+
+    <script>
+      var myWindow;
+      function openWindow() {
+        myWindow = window.open(
+          "",
+          "_blank",
+          " width =600px, resizable = false, scrollbars, status"
+        );
+        myWindow.document.write("<p>This is a new popup</p>")
+      }
+      function moveWindow() {
+        myWindow.moveTo(100, 100);
+        
+      }
+      
+    </script>
+  </body>
+</html>

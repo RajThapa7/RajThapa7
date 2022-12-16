@@ -9,9 +9,9 @@
 <p>- 📫 How to reach me ... jyangoraj@gmail.com </p>
 </div>
 
-<div align="right">
+<!-- <div align="right">
 <img src="https://github.com/RajThapa7/RajThapa7/blob/main/madrid.gif" alt="Hala Madrid" width="300px"/>
-</div>
+</div> -->
 
 
 
@@ -27,14 +27,14 @@
 <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="" height="30" width="40" /></a>
 </p>
 
-## TV SHOWS
+<!-- ## TV SHOWS -->
 
-<div align="">
+<!-- <div align="">
 <img src="https://github.com/RajThapa7/RajThapa7/blob/main/bb.gif" width="150px" height="200px" alt="Breaking Bad" autostart="true"/>
 <img src="https://github.com/RajThapa7/RajThapa7/blob/main/mh.gif" width="300px" height="200px" alt="Breaking Bad" autostart="true"/>
 <img src="https://github.com/RajThapa7/RajThapa7/blob/main/sg.gif" width="150px" height="200px" alt="Breaking Bad" autostart="true"/>
 <img src="https://github.com/RajThapa7/RajThapa7/blob/main/wednesday-addams.gif" width="200px" height="200px" alt="Breaking Bad" autostart="true"/>
-</div>
+</div> -->
 
 
 

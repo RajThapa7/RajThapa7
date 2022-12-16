@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning javascript and C , C++(college course)
 - 📫 How to reach me ... jyangoraj@gmail.com
 
-![madrid](https://user-images.githubusercontent.com/79432729/208078581-94680c6d-9ada-4c63-aa7a-32d33667e25b.gif)
+<img src="![madrid](https://user-images.githubusercontent.com/79432729/208078581-94680c6d-9ada-4c63-aa7a-32d33667e25b.gif)"/>
 
 
 <h3 align="left">Connect with me:</h3>

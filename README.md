@@ -1,4 +1,7 @@
 
+
+  <link rel="stylesheet" href="./styles.css">
+
 <div>
 <div align="left">
 <p>- 👋 Hi, I’m @RajThapa7 </p>

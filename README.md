@@ -1,9 +1,8 @@
 
 
-  <link rel="stylesheet" href="./styles.css">
+
 
 <div>
-<div align="left">
 <p>- 👋 Hi, I’m @RajThapa7 </p>
 <p>- 👀 I’m interested in web development </p>
 <p> - 🌱 I’m currently learning javascript</p>
@@ -12,7 +11,6 @@
 
 <div align="right">
 <img src="https://github.com/RajThapa7/RajThapa7/blob/main/madrid.gif" alt="Hala Madrid" width="300px"/>
-</div>
 </div>
 
 

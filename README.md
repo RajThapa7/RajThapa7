@@ -1,13 +1,13 @@
 
 <div>
-<div>
+<div align="left">
 <p>- 👋 Hi, I’m @RajThapa7 </p>
-<p>- 👀 I’m interested in web development and app development </p>
-<p> - 🌱 I’m currently learning javascript and C , C++(college course)</p>
+<p>- 👀 I’m interested in web development </p>
+<p> - 🌱 I’m currently learning javascript</p>
 <p>- 📫 How to reach me ... jyangoraj@gmail.com </p>
 </div>
 
-<div>
+<div align="right">
 <img src="https://github.com/RajThapa7/RajThapa7/blob/main/madrid.gif" alt="Hala Madrid" width="300px"/>
 </div>
 </div>

@@ -5,8 +5,8 @@
 <div>
 <p>- 👋 Hi, I’m Raj Thapa </p>
 <p>- I'm a Front-end web developer </p>
-<p> - I specialize in React js, Tailwind CSS, Next JS, Typescript</p>
-<p>- 📫 How to reach me ... jyangoraj@gmail.com </p>
+<p> - I specialize in React JS, Tailwind CSS, Next JS, Typescript</p>
+<p>- How to reach me ... jyangoraj@gmail.com </p>
 </div>
 
 <!-- <div align="right">
@@ -21,7 +21,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/raj-thapa-50083b184/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="" height="30" width="40" /></a>
 <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" /></a>
 <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="" height="30" width="40" /></a>
 <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="" height="30" width="40" /></a>

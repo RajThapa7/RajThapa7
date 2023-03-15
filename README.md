@@ -3,9 +3,9 @@
 
 
 <div>
-<p>- 👋 Hi, I’m @RajThapa7 </p>
-<p>- 👀 I’m interested in web development </p>
-<p> - 🌱 I’m currently learning javascript</p>
+<p>- 👋 Hi, I’m Raj Thapa </p>
+<p>- I'm a Front-end web developer </p>
+<p> - I specialize in React js, Tailwind CSS, Next JS, Typescript</p>
 <p>- 📫 How to reach me ... jyangoraj@gmail.com </p>
 </div>
 

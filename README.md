@@ -6,7 +6,7 @@
 <p>- 👋 Hi, I’m Raj Thapa </p>
 <p>- I'm a Front-end web developer </p>
 <p> - I specialize in React JS, Tailwind CSS, Next JS, Typescript</p>
-<p>- How to reach me ... jyangoraj@gmail.com </p>
+<p>- How to reach me ... connect@rajthapa7.com.np </p>
 </div>
 
 <!-- <div align="right">
